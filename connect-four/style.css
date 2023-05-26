@@ -1,0 +1,60 @@
+body {
+    background-color: #ddd;
+    overflow: hidden;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 830px;
+    height: 655px;
+    background-color: yellow;
+    border: 1px solid #555;
+    padding: 40px 20px;
+    box-shadow:
+      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075),
+      0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075),
+      0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.grid div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #777;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.taken {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.player-one {
+    background-color: red !important;
+    border-radius: 50%;
+}
+
+.player-two {
+    background-color: blue !important;
+    border-radius: 50%;
+}
+
+.player-highlight-one {
+    color: red;
+}
+
+.player-highlight-two {
+    color: blue;
+}

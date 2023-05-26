@@ -1,0 +1,50 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #333;
+    width: 180px;
+    height: 180px;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.ending-block {
+    background-color: red;
+}
+
+.starting-block {
+    background-color: blue;
+}
+
+/* .log-left, 
+.log-right {
+    background-color: lightblue;
+} */
+
+.car-left, 
+.car-right {
+    background-color: lightgrey;
+}
+
+.l1, .l2, .l3 {
+    background-color: brown;
+}
+
+.l4, .l5 {
+    background-color: lightblue;
+}
+
+.c1 {
+    background-color: #000;
+}
+
+.c2, .c3 {
+    background-color: lightgrey;
+}
+
+.frog {
+    background-color: green;
+}
